@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#32FFEA00"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".activity.VedioActivity">
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/image_slider"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        app:iss_auto_cycle="true"
+        app:iss_delay="1000"
+        app:iss_period="1000"
+        app:iss_text_align="CENTER"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/allrohoman"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:padding="5dp"
+                android:background="#DCDCDC"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="170dp"
+                    android:src="@drawable/all_rohoman"
+                    android:scaleType="centerCrop"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#79FFEA00"
+                        android:text="@string/dis"
+                        android:textColor="#000"
+                        android:justificationMode="inter_word"
+                        android:layout_margin="2dp"
+                        android:textSize="14sp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#7500B0FF"
+                        android:text="সূরা আর রহমান আপনি ৩০ দিনের মধ্যে শিখে ফেলবেন এবং নামাজে সুন্দর ভাবে তেলাওয়াত করতে পারবেন।"
+                        android:textColor="#000"
+                        android:justificationMode="inter_word"
+                        android:layout_margin="3dp"
+                        android:textSize="13sp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#C076FF03"
+                        android:text="আলহামদুলিল্লাহ আলহামদুলিল্লাহ আলহামদুলিল্লাহ  যতই শুনি ততই মন ভরে যাই "
+                        android:textColor="#000"
+                        android:layout_margin="2dp"
+                        android:textSize="12sp"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/hakko"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:padding="5dp"
+                android:background="#DCDCDC"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/all_hakko"
+                    android:scaleType="centerCrop"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="হৃদয় শীতল করা মতো  যতবার শুনি ততবারই শুনার ইচ্ছে করে, সুবাহানাল্লাহ | Beautiful Quran Tilawat "
+                    android:textColor="#000"
+                    android:justificationMode="inter_word"
+                    android:layout_margin="10dp"
+                    android:textSize="19sp"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/yassen"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:padding="5dp"
+                android:background="#DCDCDC"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/sura_yassen"
+                    android:scaleType="centerCrop"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="মহান আল্লাহ তায়ালার চাইলে সব পারে।ইয়া মাবুদ তুমি আমাকে ধৈর্য ধারণ করার শক্তি দাও আমি যেন তোমার পথে থাকতে পারি। আমিন "
+                    android:textColor="#000"
+                    android:justificationMode="inter_word"
+                    android:layout_margin="10dp"
+                    android:textSize="17sp"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ayatul"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:padding="5dp"
+                android:background="#DCDCDC"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/ayatul"
+                    android:scaleType="centerCrop"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="আত্মা প্রশান্তকারী কণ্ঠে আয়াতুল কুরসি ┇ Ayat Al Qursi recited by Omar Hisham al Arabi"
+                    android:textColor="#000"
+                    android:justificationMode="inter_word"
+                    android:layout_margin="10dp"
+                    android:textSize="19sp"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/hasor"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:padding="5dp"
+                android:background="#DCDCDC"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/hasor"
+                    android:scaleType="centerCrop"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="হৃদয় শীতল করা সূরা হাশরের শেষের তিন আয়াত তিলাওয়াত | Beautiful Quran Tilawat "
+                    android:textColor="#000"
+                    android:justificationMode="inter_word"
+                    android:layout_margin="10dp"
+                    android:textSize="19sp"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Menu"
+        android:id="@+id/menu"
+        android:icon="@drawable/restaurant_menu_24"
+        android:checkable="true"/>
+
+
+    <item android:title="Settinge"
+        android:id="@+id/settinge"
+        android:icon="@drawable/round_settings_24"
+        android:checkable="true"/>
+
+
+
+    <item android:title="Favourite"
+        android:id="@+id/favourite"
+        android:icon="@drawable/baseline_favorite_24"
+        android:checkable="true"/>
+
+    <item android:title="Feedback"
+        android:id="@+id/feedback"
+        android:icon="@drawable/round_feedback_24"
+        android:checkable="true"/>
+
+    <item android:title="Contact Us"
+        android:id="@+id/contact"
+        android:icon="@drawable/baseline_contact_phone_24"
+        android:checkable="true"/>
+    <item android:title="email"
+        android:id="@+id/email"
+        android:icon="@drawable/baseline_email_24"
+        android:checkable="true"/>
+
+    <item android:title="Share"
+        android:id="@+id/share"
+        android:icon="@drawable/baseline_screen_share_24"
+        android:checkable="true"/>
+
+    <item android:title="Exit"
+        android:id="@+id/exit"
+        android:icon="@drawable/baseline_exit_to_app_24"
+        android:checkable="true"/>
+
+
+</menu>

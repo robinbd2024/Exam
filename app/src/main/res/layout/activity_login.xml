@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/loginbag"
+    tools:context=".activity.LoginActivity">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:lottie_rawRes="@raw/animation2"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="330dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        app:cardCornerRadius="30dp"
+        android:background="@color/lavender"
+        app:cardElevation="20dp"
+        app:cardMaxElevation="15dp"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign UP"
+            android:textColor="@color/lavender"
+            android:textSize="40sp"
+            android:layout_marginLeft="100dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:padding="8dp"
+            android:drawablePadding="8dp"
+            android:hint="Email"
+            android:inputType="text"
+            android:background="@drawable/costom_input"
+            android:drawableLeft="@drawable/round_person_24"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/email"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:id="@+id/password"
+            android:background="@drawable/costom_input"
+            android:layout_marginTop="160dp"
+            android:padding="8dp"
+            android:hint="Password"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:drawablePadding="8dp"
+            android:layout_marginLeft="20dp"
+            android:inputType="textPassword"
+            android:textColor="@color/black"/>
+
+
+        <Button
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:text="Sign Up"
+            android:id="@+id/signup"
+            android:textSize="18sp"
+            android:layout_marginTop="220dp"
+            android:backgroundTint="@color/lavender"
+            android:layout_marginLeft="30dp"
+            app:cornerRadius = "20dp"/>
+
+        <TextView
+            android:id="@+id/forgot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgot password "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#004D40"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:gravity="center"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginRedirectText"
+            android:text="No account? Create one"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:layout_marginTop="150dp"
+            android:textColor="@color/lavender"
+            android:background="#80FFEA00"
+            android:textSize="20sp" />
+
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+</LinearLayout>
